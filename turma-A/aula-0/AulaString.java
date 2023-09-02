@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-class AulaString {
+public class AulaString {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         System.out.println("Digite a frase que deseja encontrar");
-        String busca = input.nextLine(); 
+        //String busca = input.nextLine(); 
 
         System.out.println("Digite uma frase");
         String frase = input.nextLine();
